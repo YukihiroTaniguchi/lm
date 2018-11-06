@@ -1,0 +1,5 @@
+#GlideRecord
+
+gr.next() で GR オブジェクトにあったスコープをレコード単位に移す
+
+current.variables.field_name.toString().split(',')
