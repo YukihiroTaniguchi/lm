@@ -2,4 +2,5 @@
 
 gr.next() で GR オブジェクトにあったスコープをレコード単位に移す
 
+-variables から配列として値を取る
 current.variables.field_name.toString().split(',')
