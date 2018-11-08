@@ -3,4 +3,4 @@
 -gr.next() で GR オブジェクトにあったスコープをレコード単位に移す
 
 -variables から配列として値を取る
-current.variables.field_name.toString().split(',')
+current.variables.field_name.toString().split(',')https://community.servicenow.com/community?id=community_question&sys_id=e46c83a5db9cdbc01dcaf3231f9619avc b
