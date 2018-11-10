@@ -5,8 +5,14 @@
 -variables から配列として値を取る
 current.variables.field_name.toString().split(',')
 
+作成した配列と比較する際もGR を 文字列にしてから
+var xxxx = xxxxArray.indexOf(gr.sys_id.toString()) >= 0;
+これで配列内に存在するか調べられる
+
+
 #Workflow
 
 
-
-inboundaction 動かない。ログが吐き出されない。
+workflow の動きが正しいか要件定義資料と比較して確認
+大西さんとメールテスト
+(可能であれば)リファクタリング > 一行 if にできるかも
